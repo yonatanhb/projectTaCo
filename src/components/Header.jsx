@@ -4,30 +4,26 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-900 text-white py-4">
-      <div className="container mx-auto px-4 flex justify-between items-center">
+    <header className="bg-gray-900 text-white py-3 shadow-lg">
+      <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
           <img
-            src="./public/dow_logo_transparent.png"
+            src="./dow_logo_transparent.png"
             alt="Dust of War Logo"
-            style={{
-              height: "100px",
-              maxHeight: "100px",
-              objectFit: "contain",
-            }}
+            className="h-16 md:h-20 object-contain"
           />
         </div>
 
         {/* Navigation (Desktop) */}
-        <nav className="hidden md:flex space-x-6 items-center justify-center flex-1">
-          <a href="#hero" className="hover:text-blue-500">
+        <nav className="hidden md:flex space-x-8 items-center flex-1 justify-center">
+          <a href="#hero" className="hover:text-blue-500 font-medium">
             Home
           </a>
-          <a href="#about" className="hover:text-blue-500">
+          <a href="#about" className="hover:text-blue-500 font-medium">
             About
           </a>
-          <a href="#contact" className="hover:text-blue-500">
+          <a href="#contact" className="hover:text-blue-500 font-medium">
             Contact
           </a>
         </nav>
