@@ -113,8 +113,9 @@ const Contact = () => {
             placeholder="Your Message"
             value={form.message}
             onChange={handleChange}
-            className="w-full p-3 mb-4 bg-gray-800 text-white rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-3 mb-4 bg-gray-800 text-white rounded border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
             rows="5"
+            maxLength="500"
             required
           ></textarea>
           <button
