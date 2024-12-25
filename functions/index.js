@@ -22,7 +22,7 @@ exports.sendContactEmail = onRequest(async (req, res) => {
 
     const mailOptions = {
       from: `"${name}" <${email}>`,
-      to: "yonatani5713@gmail.com",
+      to: "itailevin@dustofwar.net",
       subject: "New Contact Form Submission",
       text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
     };
