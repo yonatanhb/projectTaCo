@@ -22,12 +22,12 @@ const Footer = () => (
         </a>
       </div>
       <div className="text-center md:text-right">
-        <a href="#about" className="text-gray-400 hover:text-white mx-2">
+        {/* <a href="#about" className="text-gray-400 hover:text-white mx-2">
           About
         </a>
         <a href="#contact" className="text-gray-400 hover:text-white mx-2">
           Contact
-        </a>
+        </a> */}
       </div>
     </div>
   </footer>
