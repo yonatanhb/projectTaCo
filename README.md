@@ -1,6 +1,6 @@
 # Dust of War
 
-Dust of War is a landing page project for a tactical shooter game, built using React, Firebase, and TailwindCSS.
+Landing page for a tactical shooter game Dust Of War, built using React, Firebase, and TailwindCSS.
 
 ## 📖 Table of Contents
 - [About](#about)
